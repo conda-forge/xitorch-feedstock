@@ -1,5 +1,5 @@
 {% set name = "xitorch" %}
-{% set version = "0.3" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xitorch/xitorch/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 763d1935f5944589da3cb80a84d2bbdc9f5db193ff9e6893581eff1460e3f54e
+  sha256: 8f7efa8e190ca93ff79fc30d16e683f64de110e9b74f25f7bee2111e89f98497
 
 build:
   noarch: python
